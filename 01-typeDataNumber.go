@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func tipedataNumber() {
 
 	// Tipe Data Number
 	var age int = 20
