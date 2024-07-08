@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func slice() {
 	// slice = potongan data dari array
 	// slice = data yang memiliki tipe data yang sama
 
@@ -23,6 +23,7 @@ func main() {
 	// copy() => menyalin data dari slice
 	newFruits := make([]string, 2)
 	copy(newFruits, fruits) // hanya mengambil 2 data dari fruits
+	fmt.Println(newFruits)
 
 	// slice operator
 	aFruits := fruits[0:2]
