@@ -35,4 +35,9 @@ func tipeDataMap() {
 	newPerson["country"] = "Indonesia"
 	fmt.Println(newPerson)
 
+	// loopoing map
+	for key, value := range person {
+		fmt.Println(key, value)
+	}
+
 }
