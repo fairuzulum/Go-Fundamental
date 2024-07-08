@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func perbandingan() {
 	// Operasi Perbandingan
 	// Operator perbandingan adalah operator yang digunakan untuk membandingkan dua buah nilai.
 	// Hasil dari operasi perbandingan adalah boolean (true atau false).
@@ -17,6 +17,6 @@ func main() {
 	name2 := "Fairuz"
 	fmt.Println(name1 == name2) // false
 
-	
+
 
 }
