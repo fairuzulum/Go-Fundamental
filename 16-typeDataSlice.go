@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func slice() {
+func main() {
 	// slice = potongan data dari array
 	// slice = data yang memiliki tipe data yang sama
 
